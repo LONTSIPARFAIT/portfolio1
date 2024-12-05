@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Lontsi Parfait | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/" class="navbar-logo" style="color: bisque;">
+            <img src="/images/logo.png" alt="Logo">
+        </a>
+        <ul class="navbar-menu">
+            <li><a href="#projets">Réalisations</a></li>
+            <li><a class="navbar-contact" href="/contact.html"><span>Me </span>contacter</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Salut, je suis <span class="hero-name">Lontsi Parfait</span></h1>
+            <h2 class="hero-title">Développeur Web Full Stack</h2>
+        </div>
+        <div class="hero-image">
+            <img src="/images/moi.png" alt="Lontsi Parfait">
+        </div>
+    </div>
+
+    <section class="section skills">
+        <h2>Mes Compétences</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <img src="/images/logo-symfony-laravel.svg" alt="Logo Symfony" class="skill-logo">
+                <h3>Backend et Laravel</h3>
+                <p>Développement d'applications PHP avec Laravel.</p>
+            </div>
+            <div class="skill">
+                <img src="/images/logo-react-vue.svg" alt="Logo React" class="skill-logo">
+                <h3>Frontend React</h3>
+                <p>Création d'applications dynamiques avec React.</p>
+            </div>
+            <div class="skill">
+                <img src="/images/logo-wordpress.svg" alt="Logo WordPress" class="skill-logo">
+                <h3>Développement WordPress</h3>
+                <p>Thèmes et plugins sur mesure pour WordPress.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section projects">
+        <h2>Mes Projets</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <a href="/projets/strackr">
+                    <img src="images/projects/strackr/thumbnail.jpg" alt="Projet Strackr">
+                </a>
+                <h3><a href="/projets/strackr">Strackr</a></h3>
+                <p>Création d'une librairie de composants et refonte du dashboard Strackr.</p>
+            </div>
+            <div class="project">
+                <a href="/projets/ciklik">
+                    <img src="images/projects/ciklik/thumbnail.jpg" alt="Projet Ciklik">
+                </a>
+                <h3><a href="/projets/ciklik">Ciklik</a></h3>
+                <p>Intégration responsive et développement WordPress du site Ciklik.co.</p>
+            </div>
+            <div class="project">
+                <a href="/projets/qwant">
+                    <img src="images/projects/qwant/thumbnail.jpg" alt="Projet Qwant">
+                </a>
+                <h3><a href="/projets/qwant">Qwant</a></h3>
+                <p>Développement React pour la nouvelle version de la recherche Qwant.</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Design par Lontsi Parfait - Développé par <a href="/" style="color: bisque;">Lontsi Parfait</a></p>
+    </footer>
+</body>
+</html>
